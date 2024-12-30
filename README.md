@@ -6,7 +6,8 @@
 2025 yılında burayı güzel şeylerle doldurmak istiyorum.
 > bu neydi unuttum.
 
-```
+```python
 print("burası kod için galiba")
 ```
-bugünlük bu kadar yeter.
+**evet kod içinmiş**
+bugünlük bu kadar yeter
