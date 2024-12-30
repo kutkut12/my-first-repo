@@ -11,7 +11,7 @@ normal text
 ~~Strikethrough~~  
 Text <sup> sup yext</sup> superscript  
 Text <sub>sub text</sub> subscript    
-<ins>underlined</ins>  
+<ins>underlined text</ins>  
 
 >**bunların sonuna tab koy öyle alt alta oluyorlar**   
 >bunun gibi
