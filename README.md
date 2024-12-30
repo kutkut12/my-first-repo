@@ -10,4 +10,5 @@
 print("burası kod için galiba")
 ```
 **evet kod içinmiş**
+
 bugünlük bu kadar yeter
