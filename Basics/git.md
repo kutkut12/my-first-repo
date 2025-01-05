@@ -1,9 +1,9 @@
 
 githubu bilgisayarına kurmak için.
-1.
-github windows yaz uygun dosyayı inir
 
-2.
+1. github windows yaz uygun dosyayı inir
+
+2. yöntem:
 ```powershell
 winget install --id Git.Git -e --source winget
 ```
@@ -11,7 +11,7 @@ winget install --id Git.Git -e --source winget
 powershelle gel. git yaz çıkan şeylere bi göz gezdir.
 
 
-Kendimize isim ve bir e-posta ayarlamamız gerekiyor.
+Kendimize isim ve bir e-posta ayarlamamız gerekiyor:
 ```powershell
 git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
