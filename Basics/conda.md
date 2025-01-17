@@ -34,7 +34,7 @@ ortamı aktivite etmek için:
 ```
 $ conda activate C:\Users\kutay\Desktop\my_conda_env\env
 ```
-
+sonuna \env eklemelisin.  
 ortamı aktive ettiğin zaman (base) den çıkıp ortamına girersin
 
 ortamı deaktive etmek için:  
@@ -42,6 +42,9 @@ ortamı deaktive etmek için:
 $ conda deactivate
 ```
 
-
+jupyter notebooku açmak için:  
+```
+$ jupyter
+```
 
 
