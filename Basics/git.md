@@ -22,16 +22,19 @@ git config --global user.email "you@example.com"
 ```
 
 Sonra repo oluşturabiliriz.
-git init  
-git add .
-git add "dosya"
-git commit -m "commit mesajın"
+```powershell
+git init   
+git add . 
+git add *.py   
+git add "dosya"  
+git commit -m "commit mesajın" 
+``` 
 comnit mesajını yazmak zorundasın
 
-3 hal var
-modified   
-staged  
-committed   
+3 hal var:    
+modified: değişiklik yaptığında. 
+staged: değişiklikler kayıt edilmeye hazır olduğunda.  
+committed: değişiklikler kayıt edildiğinde.  
 
 
 githubta klasör oluşurmak için:
