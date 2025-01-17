@@ -5,21 +5,21 @@ search -> conda
 
 conda ortamını oluşturmak istediğim klasöre git:
 ```
-(base) C:\>cd C:\Users\kutay\Desktop
+$ (base) C:\>cd C:\Users\kutay\Desktop
 ```
 
 yeni klasör oluştur:
 ```
-(base) C:\Users\kutay\Desktop>mkdir my_conda_env
+$ (base) C:\Users\kutay\Desktop>mkdir my_conda_env
 ```
 o klasörün içine gir:
 ```
-(base) C:\Users\kutay\Desktop>cd my_conda_env
+$ (base) C:\Users\kutay\Desktop>cd my_conda_env
 ```
 
 conda ortamını oluştur (şuan o klasörün içindeyiz):
 ```
-conda create --prefix ./env istediğim paketler
+$ conda create --prefix ./env istediğim paketler
 ```
 
 paket örnekleri:  
@@ -27,7 +27,7 @@ pandas numpy matplotlib scikit-learn jupyter
 
 bir paketi eklemeyi unuttuysan: 
 ```
-conda install paket
+$ conda install paket
 ```
 
 ortamı aktivite etmek için:  
