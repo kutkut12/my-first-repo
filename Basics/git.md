@@ -1,3 +1,4 @@
+#Git ve Github Nasıl Kullanılır
 
 githubu bilgisayarına kurmak için.
 
@@ -16,6 +17,8 @@ Kendimize isim ve bir e-posta ayarlamamız gerekiyor:
 git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
 ```
+
+git init  
 git add .
 git add "dosya"
 git commit -m "commit mesajın"
