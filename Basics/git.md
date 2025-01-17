@@ -13,7 +13,7 @@ git i bilgisayarına kurmak için.
 winget install --id Git.Git -e --source winget
 ```
 
-powershelle gel. git yaz çıkan şeylere bi göz gezdir.  
+powershelle gel. git yaz çıkan şeylere bi göz gezdir.    
 
 İlk yapmamız gereken şeylerden biri kendimize isim ve bir e-posta ayarlamak bunun için:
 ```powershell
@@ -38,8 +38,8 @@ staged: değişiklikler kayıt edilmeye hazır olduğunda.
 committed: değişiklikler kayıt edildiğinde.  
 
 
-githubta klasör oluşurmak için:
+githubta klasör oluşurmak için:  
 Add new file -> Klasör ismini yaz -> Sonunda / koy -> .gitkeep yaz çünkü git boş klasörleri umursamıyor. ille de içinde bir şey olmalı.
 
-dosyaları klasöre taşımak için
-Dosyanı editle -> doyanın başına klasör ismini yaz ve / ekle -> commit
+dosyaları klasöre taşımak için:  
+Dosyanı editle -> doyanın başına klasör ismini yaz ve "/" ekle -> commit
