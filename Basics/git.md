@@ -1,4 +1,4 @@
-#Git ve Github Nasıl Kullanılır
+# Git ve Github Nasıl Kullanılır
 
 githubu bilgisayarına kurmak için.
 
