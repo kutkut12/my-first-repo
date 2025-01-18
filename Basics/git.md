@@ -1,21 +1,51 @@
-# Git ve Github Nasıl Kullanılır
+# Git ve GitHub Nasıl Kullanılır
 
-git: dosyalarımızın takibi için kullandığımız program.  
-github: bunu programı kullanan en popüler site.
+## Temel Kavramlar
+- **Git**:  
+  Dosyalarımızın takibini yapmamızı sağlayan bir versiyon kontrol sistemi.  
+- **GitHub**:  
+  Git'i kullanarak projelerimizi bulut üzerinde depolamamızı ve diğer insanlarla paylaşmamızı sağlayan en popüler platform.  
+- **Repository (Repo)**:  
+  Bir projenin veya dosyaların saklandığı Git deposu.  
+- **Main, Master**:  
+  Ana proje, kodun bulunduğu yer. Ana dal.
+- **Branch**:  
+  Ana koddan bağımsız olarak bir değişiklik veya geliştirme yapmak için kullanılan yan dallar.  
+- **Merge**:  
+  Bir branch'teki değişiklikleri başka bir branch'e (genelde ana branch'e yani **main**e) birleştirme işlemi.
+- **Commit**:  
+  Değişikliklerin kaydedilmesi işlemi. 
+- **Clone**:  
+  GitHub üzerindeki bir projeyi yerel bilgisayara indirme işlemi.  
+- **Pull**:  
+  Uzak repodaki (örneğin GitHub'daki) güncellemeleri yerel repo ile senkronize etme.
+- **Pull Request**:  
+  Yapılan değişikliklerin ana projeye dahil edilmesi için yapılan istektir
+- **Push**:  
+  Yerel repodaki değişiklikleri uzak repoya gönderme işlemi.  
 
 
-git i bilgisayarına kurmak için.
 
-1. github windows yaz uygun dosyayı inir
+## Git'in Kurulumu ve İlk Bakış
 
-2. yöntem:
+### Git'i Bilgisayarınıza Kurmak İçin:
+**1. Yöntem**:  
+GitHub'un web sitesinden indirin.  
+[Git İndirme Sayfası](https://git-scm.com/)  
+
+**2. Yöntem**:  
+Komut sistemiyle kurulum:  
 ```powershell
 winget install --id Git.Git -e --source winget
 ```
 
-powershelle gel. git yaz çıkan şeylere bi göz gezdir.    
+### Kurulum sonrası Git'in yüklü olup olmadığını kontrol etmek, Git'in versiyonunu öğrenmek için:
+```
+git --version
+```
 
-İlk yapmamız gereken şeylerden biri kendimize isim ve bir e-posta ayarlamak bunun için:
+### İlk Yapılacaklar
+Git kurulumundan sonra ilk olarak kendimize isim, e-posta ve bir varsayılan editör tanımlamamız gerekir:
 ```powershell
 git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
