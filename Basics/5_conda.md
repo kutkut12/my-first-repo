@@ -2,6 +2,10 @@ conda'yı indir
 
 conda terminaline gel  
 search -> anaconda (anaconda, miniconda ayrımı yok)
+```
+conda
+```
+çeşit çeşit komut çıkacak
 
 conda ortamını oluşturmak istediğim klasöre git:
 ```
