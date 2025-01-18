@@ -12,21 +12,21 @@
 
 
 
-## Metin Düzenleme, Yazma Modu
+## Metin Düzenleme
 - **Ctrl + A**:  
   Tüm metni seçer.
+  
+- **Shift + Ok Tuşları**:  
+  İmleci hareket ettirirken metni seçer.
+
+- **Ctrl + Shift + Ok Tuşları**:  
+  Kelime kelime seçim yapar.
 
 - **Ctrl + Home**:  
   İmleci belgenin başına götürür.
 
 - **Ctrl + End**:  
   İmleci belgenin sonuna götürür.
-
-- **Shift + Ok Tuşları**:  
-  İmleci hareket ettirirken metni seçer.
-
-- **Ctrl + Shift + Ok Tuşları**:  
-  Kelime kelime seçim yapar.
 
 - **INS (Insert)**:  
 **Insert mode** (ekleme) ile **overtype mode** (üzerine yazma) arasında geçiş yapar.
@@ -59,7 +59,7 @@
 
 
 
-## Sekmeler Arasında Gezinme
+## Tarayıcı Sekmeleri Arasında Gezinme
 - **Ctrl + Tab**:  
   Açık sekmeler arasında sırayla **ileri** geçiş yapar.
 
@@ -72,6 +72,8 @@
 - **Ctrl + Shift + T**:  
   Yanlışlıkla kapatılan sekmeyi geri açar.
 
+
+
 ## Ekran Görüntüsü Alma
 - **Win + Shift + S**:  
   Ekranın belirli bir kısmının görüntüsünü almanı sağlar.
@@ -82,11 +84,11 @@
 
 
 ## Pencere ve Sistem Yönetimi
-- **Win + E**:  
-  Dosya Gezgini'ni açar.
-
 - **Win + R**:  
   Çalıştır penceresini açar.
+
+- **Win + E**:  
+  Dosya Gezgini'ni açar.
 
 - **Win + L**:  
   Bilgisayarı kilitler.
