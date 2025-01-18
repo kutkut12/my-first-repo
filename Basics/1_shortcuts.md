@@ -1,94 +1,97 @@
 # Klavye Kısayolları ve Açıklamaları
 
 ## Genel Kopyalama ve Yapıştırma İşlemleri
-- **Ctrl + C**:  
+- **Ctrl + C**  
   Seçili öğeyi kopyalar.
 
-- **Ctrl + X**:  
+- **Ctrl + X**  
   Seçili öğeyi keser (kopyalar ve bulunduğu yerden kaldırır).
 
-- **Ctrl + V**:  
+- **Ctrl + V**  
   Kopyalanan veya kesilen öğeyi yapıştırır.
 
 
 
 ## Metin Düzenleme
-- **Ctrl + A**:  
+- **Ctrl + A**  
   Tüm metni seçer.
   
-- **Shift + Ok Tuşları**:  
+- **Shift + Ok Tuşları**  
   İmleci hareket ettirirken metni seçer.
 
-- **Ctrl + Shift + Ok Tuşları**:  
+- **Ctrl + Shift + Ok Tuşları**  
   Kelime kelime seçim yapar.
 
-- **Ctrl + Home**:  
+- **Ctrl + OK Tuşları**  
+  Karakter karakter atlamak yerine kelime kelime atlayarak çok dah hızlı seyehat etmeye olanak tanır.
+
+- **Ctrl + Home**  
   İmleci belgenin başına götürür.
 
-- **Ctrl + End**:  
+- **Ctrl + End**  
   İmleci belgenin sonuna götürür.
 
-- **INS (Insert)**:  
+- **INS (Insert)**  
 **Insert mode** (ekleme) ile **overtype mode** (üzerine yazma) arasında geçiş yapar.
 
 
 
 ## Kaydetme ve Geri Alma İşlemleri
-- **Ctrl + S**:  
+- **Ctrl + S**  
   Aktif dosyayı kaydeder.
 
-- **Ctrl + Z**:  
+- **Ctrl + Z**  
   Son yapılan işlemi geri alır.
 
 
 ## Silme İşlemleri
-- **Del (Delete)**:  
+- **Del (Delete)**  
   Seçili öğeyi veya imlecin sağındaki karakteri siler.
 
-- **Ctrl + Backspace**:  
+- **Ctrl + Backspace**   
   İmlecin solundaki **kelimeyi** siler.
 
 
 
 ## Uygulamalar Arasında Geçiş
-- **Alt + Tab**:  
+- **Alt + Tab**  
   Açık uygulamalar arasında sırayla **ileri** geçiş yapar.
 
-- **Alt + Shift + Tab**:  
+- **Alt + Shift + Tab**   
   Açık uygulamalar arasında **geri** geçiş yapar.
 
 
 
 ## Tarayıcı Sekmeleri Arasında Gezinme
-- **Ctrl + Tab**:  
+- **Ctrl + Tab**  
   Açık sekmeler arasında sırayla **ileri** geçiş yapar.
 
-- **Ctrl + Shift + Tab**:  
+- **Ctrl + Shift + Tab**  
   Açık sekmeler arasında **geri** geçiş yapar.
 
-- **Ctrl + W**:  
+- **Ctrl + W**  
   Aktif sekmeyi kapatır.
 
-- **Ctrl + Shift + T**:  
+- **Ctrl + Shift + T**  
   Yanlışlıkla kapatılan sekmeyi geri açar.
 
 
 
 ## Ekran Görüntüsü Alma
-- **Win + Shift + S**:  
+- **Win + Shift + S**  
   Ekranın belirli bir kısmının görüntüsünü almanı sağlar.
 
-- **PRT SC (Print Screen)**:  
+- **PRT SC (Print Screen)**  
   Tüm ekranın görüntüsünü kopyalar. Daha sonra bir uygulamaya yapıştırarak görüntüyü kullanabilirsin.
 
 
 
 ## Pencere ve Sistem Yönetimi
-- **Win + R**:  
+- **Win + R**  
   Çalıştır penceresini açar.
 
-- **Win + E**:  
+- **Win + E**  
   Dosya Gezgini'ni açar.
 
-- **Win + L**:  
+- **Win + L**  
   Bilgisayarı kilitler.
