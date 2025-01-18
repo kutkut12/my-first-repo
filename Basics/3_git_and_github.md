@@ -9,10 +9,10 @@
   Bir projenin veya dosyaların saklandığı Git deposu.  
 - **Main, Master**:  
   Ana proje, kodun bulunduğu yer. Ana dal.
-- **Branch**:  
-  Ana koddan ayrılıp bağımsız olarak bir değişiklik veya geliştirme yapmak için kullanılan yan dallar.  
 - **Commit**:  
   Değişikliklerin kaydedilmesi işlemi.
+- **Branch**:  
+  Ana koddan ayrılıp bağımsız olarak bir değişiklik veya geliştirme yapmak için kullanılan yan dallar.  
 - **Merge**:  
   Bir branch'teki değişiklikleri başka bir branch'e (genelde ana branch'e yani **main**e) birleştirme işlemi.
 - **Clone**:  
@@ -47,22 +47,57 @@ git --version
 ---
 
 ### İlk Yapılacaklar
-Git kurulumundan sonra ilk olarak kendimize isim, e-posta ve bir varsayılan editör tanımlamamız gerekir:
+Git'i kullanmaya başlamadan önce ilk olarak kendimize isim, e-posta ve varsayılan editör tanımlamamız gerekir  
 ```powershell
 git config --global user.name "Your Name"
+```
+
+```powershell
 git config --global user.email "you@example.com"
+```
+
+```powershell
 git config --global core.editor "code --wait"
 ```
 
-Sonra repo oluşturabiliriz.
+Ben burada VS Code'u tanımladım ama siz istediğinizi tanımlayabilirsiniz.  
+
+### Repo Oluşurmak İçin  
+Repo oluşturmak istediğimiz yere geliriz.  
+mkdir ile repo'ya istediğimiz ismi veririz.  
+cd ile o repoya gireriz.    
+ve sonrasında  
+```
+git init
+```
+ile repo'muzu oluştururuz.  
+
+### Stage, Commit
+
+stage durumunu öğrenmek için
 ```powershell
-git init   
-git add . 
-git add *.py   
-git add "dosya"  
+git status
+```
+
+bütün dosyaları 
+```powershell   
+git add .
+```
+
+sonu .py ile biten dosyaları
+```powershell
+git add *.py
+```
+
+spesifik bir dosyayı
+```powershell  
+git add "dosya"
+```
+
+comnit mesajını yazmak zorundasın
+```powershell  
 git commit -m "commit mesajın" 
 ``` 
-comnit mesajını yazmak zorundasın
 
 3 hal var:    
 modified: değişiklik yaptığında. 
