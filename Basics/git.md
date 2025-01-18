@@ -10,11 +10,11 @@
 - **Main, Master**:  
   Ana proje, kodun bulunduğu yer. Ana dal.
 - **Branch**:  
-  Ana koddan bağımsız olarak bir değişiklik veya geliştirme yapmak için kullanılan yan dallar.  
+  Ana koddan ayrılıp bağımsız olarak bir değişiklik veya geliştirme yapmak için kullanılan yan dallar.  
+- **Commit**:  
+  Değişikliklerin kaydedilmesi işlemi.
 - **Merge**:  
   Bir branch'teki değişiklikleri başka bir branch'e (genelde ana branch'e yani **main**e) birleştirme işlemi.
-- **Commit**:  
-  Değişikliklerin kaydedilmesi işlemi. 
 - **Clone**:  
   GitHub üzerindeki bir projeyi yerel bilgisayara indirme işlemi.  
 - **Pull**:  
@@ -30,7 +30,7 @@
 
 ### Git'i Bilgisayarınıza Kurmak İçin:
 **1. Yöntem**:  
-GitHub'un web sitesinden indirin.  
+Git'in web sitesinden indirin.  
 [Git İndirme Sayfası](https://git-scm.com/)  
 
 **2. Yöntem**:  
@@ -39,10 +39,12 @@ Komut sistemiyle kurulum:
 winget install --id Git.Git -e --source winget
 ```
 
-### Kurulum sonrası Git'in yüklü olup olmadığını kontrol etmek, Git'in versiyonunu öğrenmek için:
+### Kurulum Sonrası Git'in Yüklü Olup Olmadığını Kontrol Etmek Veya Versiyonunu Öğrenmek İçin:
 ```
 git --version
 ```
+
+---
 
 ### İlk Yapılacaklar
 Git kurulumundan sonra ilk olarak kendimize isim, e-posta ve bir varsayılan editör tanımlamamız gerekir:
@@ -67,6 +69,8 @@ modified: değişiklik yaptığında.
 staged: değişiklikler kayıt edilmeye hazır olduğunda.  
 committed: değişiklikler kayıt edildiğinde.  
 
+tracked
+untracked
 
 githubta klasör oluşurmak için:  
 Add new file -> Klasör ismini yaz -> Sonunda / koy -> .gitkeep yaz çünkü git boş klasörleri umursamıyor. ille de içinde bir şey olmalı.
