@@ -1,7 +1,7 @@
-condayı indir  
+conda'yı indir  
 
 conda terminaline gel  
-search -> conda
+search -> anaconda (anaconda, miniconda ayrımı yok)
 
 conda ortamını oluşturmak istediğim klasöre git:
 ```
@@ -10,11 +10,11 @@ $ (base) C:\>cd C:\Users\kutay\Desktop
 
 yeni klasör oluştur:
 ```
-$ (base) C:\Users\kutay\Desktop>mkdir my_conda_env
+$ (base) C:\Users\kutay\Desktop>mkdir playground
 ```
 o klasörün içine gir:
 ```
-$ (base) C:\Users\kutay\Desktop>cd my_conda_env
+$ (base) C:\Users\kutay\Desktop>cd playground
 ```
 
 conda ortamını oluştur (şuan o klasörün içindeyiz):
@@ -32,7 +32,7 @@ $ conda install paket
 
 ortamı aktivite etmek için:  
 ```
-$ conda activate C:\Users\kutay\Desktop\my_conda_env\env
+$ conda activate C:\Users\kutay\Desktop\playground\env
 ```
 sonuna \env eklemelisin.  
 ortamı aktive ettiğin zaman (base) den çıkıp ortamına girersin
