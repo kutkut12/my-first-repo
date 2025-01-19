@@ -79,6 +79,21 @@ stage durumunu öğrenmek için
 git status
 ```
 
+stage durumunu kısa bir şekilde görmek için
+```powershell
+git status -s
+```
+
+```powershell
+A  yeni eklenmiş ve aşama alanına eklenmiş
+M  değiştirilmiş ve aşama alanına eklenmiş
+ M değiştirilmiş ama aşama alanına eklenmemiş
+MM değiştirilmiş ve aşama alanına eklenmiş ama bir daha değiştirilmiş
+?? izlenmemiş
+```
+
+
+
 bütün dosyaları 
 ```powershell   
 git add .
