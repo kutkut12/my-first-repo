@@ -16,7 +16,7 @@ normal text
 ~~Strikethrough~~  
 Text <sup> sup yext</sup> superscript  
 Text <sub>sub text</sub> subscript    
-<ins>underlined text</ins>
+<ins>underlined text</ins>  
 Latex: The quadratic formula is $`ax^2 + bx + c = 0`$.  
 
 ### yorum
